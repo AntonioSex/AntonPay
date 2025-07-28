@@ -6,6 +6,12 @@
     <title>AntonPay - Удобные платежи через NFC</title>
     <meta name="description" content="Инновационный платежный сервис, позволяющий переводить деньги простым поднесением телефона к NFC-метке">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        // Скролл к началу страницы при загрузке
+        window.onload = function() {
+            window.scrollTo(0, 0);
+        };
+    </script>
     <style>
         * {
             margin: 0;
@@ -215,19 +221,6 @@
             margin-top: 20px;
         }
         
-        .demo-section {
-            text-align: center;
-            padding: 40px 0;
-        }
-        
-        .demo-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            margin: 20px 0;
-        }
-        
         footer {
             text-align: center;
             padding: 30px;
@@ -342,13 +335,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section id="demo" class="demo-section">
-            <h2>Посмотрите, как это работает</h2>
-            <p>Простота и удобство в одном касании</p>
-            <!-- Здесь можно разместить изображение или GIF с демонстрацией работы -->
-            <img src="https://via.placeholder.com/800x450?text=AntonPay+Demonstration" alt="Демонстрация работы AntonPay" class="demo-image">
         </section>
         
         <section id="try">
